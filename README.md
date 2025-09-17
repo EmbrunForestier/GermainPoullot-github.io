@@ -1,1 +1,4 @@
-# Please go to https://embrunforestier.github.io/germainpoullot.github.io/main.html
+# Please go to [https://embrunforestier.github.io/germainpoullot/main.html][mainURL].
+
+
+[mainURL]: https://embrunforestier.github.io/germainpoullot/main.html
