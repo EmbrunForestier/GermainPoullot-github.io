@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Germain Poullot - Computations</title>
+    <link rel="stylesheet" href="research.css">
+</head>
+
+<body>
+<div class="header">
+  <a href="#default" class="logo">Germain Poullot</a>
+  <div class="header-right">
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="Images.html">Images</a>
+    <a href="Data.html" class="active">Computations</a>
+  </div>
+</div>
+
+
+<h1>Computational results</h1>
+
+<p>
+    Year after year, I accumulate computational results of several kind: here there are!
+    The data are not perfectly sorted, and, sadly, I did not have time to do better.
+    As they might be usefull for your research, please feel free to download and play with them.
+</p>
+<ul>
+    <li>If you have any question, I will be glad to (try to) answer them.</li>
+    <li>If you find a bug, please let me know.</li>
+    <li>If you have a suggestion, I will be glad to hear it.</li>
+    <li>If you want to make a publication based on these data, please send me an email.</li>
+</ul>
+
+<h2>Submodular cone</h2>
+
+<p>
+    I computed "all" the faces of the submodular cone for n = 3 and n = 4, and, with the help of <a href="https://www.home.uni-osnabrueck.de/wbruns/" target="_blank">Winfried Bruns</a>, some of the faces for n = 5, and some rays for n = 6.
+    Each face of the submodular cone is associated to (a class of normally equivalent) polytopes, which are called generalized permutahedra, a.k.a deformed permutahedra (one can also associate the faces to classes of submodular functions, among others: I made a choice).
+    I tried to make the data understandable, but if you are totally unfamiliar with this subject, you will probably need to read some papers first: knowing the definition of a generalized permutahedra and of the submodular cone is necessary; knowing what a deformation and a deformation cone are is recommanded.
+</p>
+<p>
+    The folder <a href="Data/GP_n=4_up_to_symmetries.zip" download="GP_n=4_up_to_symmetries">GP_n=4_up_to_symmetries</a> contains a READ_ME.txt file that details the above short explanation: you should read it!
+    See also the slides 28 to 33 of <a href="slides/Deformed permutahedra - a visit.pdf" target="_blank">my talk on the submodular cone</a> for some drawings and explanations. 
+</p>
+<p>
+    Here are the links to the data:
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>n</th>
+            <th>Data</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>3</td>
+            <td><a href="Data/GP_n=3_up_to_symmetries.zip" download="GP_n=3_up_to_symmetries">GP_n=3_up_to_symmetries</a></td>
+            <td>All faces of the submodular cone for n = 3, up to: central symmetry, permutation of coordinates (and normal equivalence)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><a href="Data/GP_n=4_up_to_symmetries.zip" download="GP_n=4_up_to_symmetries">GP_n=4_up_to_symmetries</a></td>
+            <td>All faces of the submodular cone for n = 4, up to: central symmetry, permutation of coordinates (and normal equivalence)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><a href="Data/GP_n=5_up_to_symmetries.zip" download="GP_n=5_up_to_symmetries">GP_n=5_up_to_symmetries</a></td>
+            <td>More than 6 600 000 faces of the submodular cone for n = 5, up to: central symmetry, permutation of coordinates (and normal equivalence)</td>
+        </tr>
+        <tr>
+            <td style="border-bottom: 1px solid black;">6</td>
+            <td style="border-bottom: 1px solid black;"><a href="Data/GP_n=6_up_to_symmetries.zip" download="GP_n=6_up_to_symmetries">GP_n=6_up_to_symmetries</a></td>
+            <td style="border-bottom: 1px solid black;">126 629 rays of the submodular cone for n = 6, up to: central symmetry, permutation of coordinates (and normal equivalence)</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td><a href="Data/All_GP_n=3.zip" download="All_GP_n=3">All_GP_n=3</a></td>
+            <td>All generalized permutahedra for n = 3 (up to normal equivalence only)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><a href="Data/All_GP_n=4.zip" download="All_GP_n=4">All_GP_n=4</a></td>
+            <td>All generalized permutahedra for n = 4 (up to normal equivalence only)</td>
+    </tbody>
+</table>
+
+<h2>Polytope algebra of graphical zonotopes</h2>
+
+<p>
+    For each graph G = (V, E) (with up to 6 vertices), I computed the polytope algebra and the weight algebra of its graphical zonotope Z_G (please, find the definitions in the literature).
+    I recorded the dimension of each graded piece of these algebras, and compare with the h-vector (the usual polynomial transform of the f-vector), and the possible in-degree vectors of Z_G.
+</p>
+
+<p>
+    As per usual, reading the READ_ME.txt file is not mandatory but quite usefull!
+    Even though it is a data-base that you can open with a computer (using, e.g., Python + SageMath), the data are also meant to be human-readable.
+</p>
+
+<p>
+    Here are the links to the data: <a href="Data/Polytope_algebra_graphical_zonotopes.zip" download="Polytope_algebra_graphical_zonotopes">Polytope_algebra_graphical_zonotopes</a>.
+</p>
+
+</body>
