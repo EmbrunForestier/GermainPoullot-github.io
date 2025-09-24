@@ -7,12 +7,13 @@
     <meta charset="utf-8">
     <title>Germain Poullot - Images</title>
     <link rel="stylesheet" href="research.css">
+    <script src="reasearch.js"></script>
 </head>
 
 
 <body>
 <div class="header">
-  <a href="#default" class="logo">Germain Poullot</a>
+  <a href="index.html" class="logo">Germain Poullot</a>
   <div class="header-right">
     <a href="index.html">Home</a>
     <a href="research.html">Research</a>
@@ -22,7 +23,18 @@
   </div>
 </div>
 
+<aside class="sidebar">
+    <div style="color: black; font-style: italic;">Go to:</div>
+    <a class="sidelink" onclick="ScrollTo('Animations');">Animations</a><br>
+    <a class="sidelink" onclick="ScrollTo('Random_polytopes');">Random polytopes</a><br>
+    <a class="sidelink" onclick="ScrollTo('MPP');">MPP & PP</a><br>
+    <a class="sidelink" onclick="ScrollTo('Special_polytopes');">Special polytopes</a><br>
+    <a class="sidelink" onclick="ScrollTo('Polytopes_general');">Polytopes (general)</a><br>
+    <a class="sidelink" onclick="ScrollTo('Submodular_cone');">Submodular cone</a><br>
+    <a class="sidelink" onclick="ScrollTo('Combinatorics');">Combinatorics</a><br>
+</aside>
 
+<main class="content">
 <h1>Illustrations</h1>
 
 <p>You can copy any of my image in order to use it as an illustration for your presentations, pre-print, courses, exercises, etc.
@@ -30,7 +42,7 @@ However, before submitting a paper for publication, if you are using one of my i
 <p>When reproducing one of these images, please cite my name (G. Poullot), and, if time and space allows use, cite the year, and/or the article the image is extracted from.</p>
 <p>Use right-click to save an image as SVG, or click to open the image as a PDF in a new tab (reciprocaly GIF for animations). If you want the LaTeX version of an image, please email me.</p>
 
-<h2>Animations</h2>
+<h2 id="Animations">Animations</h2>
 
 <table width=100%>
     <tr>
@@ -45,9 +57,10 @@ However, before submitting a paper for publication, if you are using one of my i
     </tr>
 </table>
 
+
 <h2>Images</h2>
 
-<h3>Random polytopes</h3>
+<h3 id="Random_polytopes">Random polytopes</h3>
 
 <table>
     <tr>
@@ -80,7 +93,7 @@ However, before submitting a paper for publication, if you are using one of my i
     </tr>
 </table>
 
-<h3>Monotone paths polytopes and pivot rule polytopes</h3>
+<h3 id="MPP">Monotone paths polytopes and pivot rule polytopes</h3>
 
 <table>
     <tr>
@@ -126,7 +139,7 @@ However, before submitting a paper for publication, if you are using one of my i
     <tr class="seperator"></tr>
 </table>
 
-<h3>Special polytopes</h3>
+<h3 id="Special_polytopes">Special polytopes</h3>
 
 <table>
     <tr>
@@ -159,7 +172,7 @@ However, before submitting a paper for publication, if you are using one of my i
     </tr>
 </table>
 
-<h3>Polytopes (general facts)</h3>
+<h3 id="Polytopes_general">Polytopes (general facts)</h3>
 
 <table>
     <tr>
@@ -173,7 +186,7 @@ However, before submitting a paper for publication, if you are using one of my i
     <tr class="seperator"></tr>
 </table>
 
-<h3>Submodular cone</h3>
+<h3 id="Submodular_cone">Submodular cone & Deformed permutahedra (a.k.a generalized permutahedra)</h3>
 
 <table>
     <tr>
@@ -217,7 +230,7 @@ However, before submitting a paper for publication, if you are using one of my i
     <tr class="seperator"></tr>
 </table>
 
-<h3>Combinatorics</h3>
+<h3 id="Combinatorics">Combinatorics</h3>
 
 <table>
     <tr>
@@ -230,7 +243,7 @@ However, before submitting a paper for publication, if you are using one of my i
     </tr>
     <tr class="seperator"></tr>
 </table>
-
+</main>
 
 </body>
 </html>
