@@ -230,3 +230,8 @@ aside > p {
   overflow-x: scroll;
   white-space: nowrap;
 }
+
+.unavailable {
+  color: pink;
+  cursor: not-allowed;
+}
