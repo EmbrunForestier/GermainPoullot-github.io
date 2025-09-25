@@ -231,7 +231,12 @@ aside > p {
   white-space: nowrap;
 }
 
+.sidelink:hover {
+  text-shadow: #fc0 1px 0 10px;
+}
+
 .unavailable {
   color: pink;
   cursor: not-allowed;
+
 }
